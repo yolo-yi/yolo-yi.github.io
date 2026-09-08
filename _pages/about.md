@@ -1,56 +1,257 @@
+# About Me
+
+你好，我是 **Yi**，目前主要关注 **人工智能、计算机视觉、深度学习和软件开发** 等方向。
+
+我对新技术和实际项目都比较感兴趣，平时喜欢通过课程学习、项目实践和阅读技术资料来提升自己。相比单纯学习理论，我更喜欢把知识应用到具体问题中，例如图像生成、表格识别、文档理解和医学影像等。
+
+在学习之外，我也喜欢记录自己的学习过程、整理技术笔记，并尝试把一些实践经验分享出来。这个网站将作为我的个人主页，用来展示学习经历、项目成果、技术兴趣以及未来的发展规划。
+
 ---
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+
+## Interests & Hobbies
+
+除了专业学习，我也有一些个人兴趣：
+
+- 💻 编程与技术探索
+- 🤖 人工智能与深度学习
+- 📚 阅读技术文章与论文
+- 📝 整理学习笔记
+- 🎨 AI 图像生成
+- 📷 摄影与视觉内容
+- 🎵 音乐
+- 🌍 了解不同领域的新技术
+
+我认为兴趣能够帮助自己保持持续学习的动力，也让我愿意主动尝试新的工具和技术。
+
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## Skills
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+目前已经掌握或正在持续学习的技能包括：
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+### Programming
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+- Python
+- C / C++
+- Markdown
+- Git & GitHub
+- LaTeX
+- 基础 Linux 命令
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+### Artificial Intelligence
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- 机器学习基础
+- 深度学习基础
+- 神经网络基本原理
+- PyTorch
+- 图像分类与目标检测
+- 计算机视觉基础
+- 生成式人工智能
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### Tools
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- Anaconda
+- VS Code
+- Git
+- GitHub
+- Jupyter Notebook
+- LaTeX
+- Hugging Face
 
-**Markdown generator**
+---
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## Projects & Practice
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+在学习过程中，我完成和接触了一些与专业相关的实践项目。
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+### Table Recognition and Document Understanding
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+对复杂表格识别与文档结构理解进行了学习和调研，重点关注：
+
+- 表格检测
+- 表格结构识别
+- 单元格划分
+- 合并单元格识别
+- OCR 与文档理解
+- 复杂表格结构分析
+
+在实践过程中，也分析过一些表格识别模型的失败情况，并了解了相关研究方法，例如 Table Transformer、UniTable 等。
+
+### Generative AI
+
+学习并实践了生成式人工智能相关技术，包括：
+
+- Diffusion Model
+- Flux
+- LoRA
+- Hugging Face 模型
+- 图像生成工作流
+
+在实验过程中完成了模型环境配置、模型调用以及生成效果测试。
+
+### Medical Imaging
+
+学习医学成像技术及人工智能在医学影像中的应用，包括：
+
+- 医学图像处理
+- CT / MRI 基础
+- 深度学习在医学影像中的应用
+- 医学图像分割与识别
+
+---
+
+## Self-Assessment
+
+通过目前的学习和项目实践，我认为自己已经具备了一定的计算机专业基础。
+
+### 已掌握的知识与能力
+
+目前已经具备：
+
+- Python 编程基础
+- 基础算法与数据结构知识
+- Git 与 GitHub 基本使用能力
+- 深度学习基础知识
+- PyTorch 基础使用能力
+- AI 项目环境配置与运行能力
+- Markdown 和 LaTeX 文档编写能力
+- 查阅技术文档和论文的能力
+
+同时，我也逐渐具备了独立解决问题的能力。例如，在遇到环境配置、模型运行失败或者项目依赖问题时，会通过文档、GitHub 和技术资料寻找解决方案。
+
+### 需要提升的方面
+
+目前还有很多需要继续学习和提高的内容，例如：
+
+- 算法与数据结构能力
+- 深度学习理论基础
+- 数学基础
+- 大型 AI 项目实践能力
+- 模型训练与调优
+- 工程化能力
+- 英文论文阅读能力
+
+我希望未来能够进一步提高自己的专业基础和项目实践能力。
+
+---
+
+## Technical Interests
+
+目前比较感兴趣的技术方向包括：
+
+### Computer Vision
+
+我对图像处理、目标检测、图像分割和视觉模型比较感兴趣，希望进一步学习计算机视觉相关算法。
+
+### Generative AI
+
+生成式人工智能是目前非常重要的技术方向，我对图像生成、大模型、多模态模型和 AI 内容生成比较感兴趣。
+
+### Document Intelligence
+
+文档理解、OCR 和表格识别也是我比较感兴趣的方向，希望进一步了解如何让 AI 理解复杂文档结构。
+
+### Medical AI
+
+医学影像与人工智能的结合具有很大的应用价值，我希望未来有机会进一步接触医学图像分析与智能诊断相关技术。
+
+---
+
+## What I Want to Learn
+
+未来最希望继续学习的知识包括：
+
+- 深度学习进阶
+- Transformer
+- Computer Vision
+- Large Language Models
+- Multimodal AI
+- Generative AI
+- Model Deployment
+- AI Engineering
+- CUDA 与 GPU 编程
+- 论文阅读与科研方法
+
+除了理论知识，我也希望通过更多完整项目提升实际开发能力。
+
+---
+
+# Three-Year Development Plan
+
+## Year 1 — Strengthen the Foundation
+
+第一阶段的目标是进一步巩固专业基础。
+
+计划重点学习：
+
+- 数据结构与算法
+- Python 与 C++
+- 计算机组成原理
+- 操作系统
+- 计算机网络
+- 深度学习基础
+- PyTorch
+
+同时，希望完成更多 AI 相关的小型项目，并通过 GitHub 记录自己的学习过程。
+
+目标是建立比较完整的计算机专业知识体系，并提升独立解决问题的能力。
+
+---
+
+## Year 2 — Focus on AI and Projects
+
+第二阶段希望逐渐确定自己的主要技术方向。
+
+目前更倾向于：
+
+- Computer Vision
+- Generative AI
+- Multimodal AI
+- Document Intelligence
+
+这一阶段计划：
+
+- 深入学习 Transformer
+- 学习主流视觉模型
+- 阅读 AI 相关论文
+- 参加项目实践
+- 尝试复现论文
+- 参与比赛或科研项目
+
+希望能够完成至少几个具有完整技术流程的项目，并形成自己的技术作品。
+
+---
+
+## Year 3 — Prepare for Further Development
+
+第三阶段希望根据自己的学习情况和兴趣，在 **升学或就业** 方向做出更加明确的选择。
+
+目前我希望继续深入学习人工智能相关方向。
+
+如果选择考研，希望进一步学习：
+
+- 人工智能
+- 计算机视觉
+- 深度学习
+- 多模态人工智能
+
+通过研究生阶段的学习，提高科研能力和技术深度。
+
+如果选择就业，希望能够进入：
+
+- AI 算法
+- 计算机视觉
+- AI 应用开发
+- 软件开发
+
+等相关岗位，通过实际工程项目不断提升自己的技术能力。
+
+---
+
+## My Goal
+
+未来三年的总体目标是：
+
+> **建立扎实的计算机专业基础，形成明确的 AI 技术方向，并具备独立完成项目和持续学习新技术的能力。**
+
+我希望在不断学习和实践的过程中，逐渐找到自己真正感兴趣并愿意长期深入发展的技术方向。
