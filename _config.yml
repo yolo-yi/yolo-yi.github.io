@@ -23,7 +23,7 @@ repository               : "yolo-yi/yolo-yi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "yolo.png"
   name             : "LiuQianyi"
   pronouns         : # example: "she/her"  
   bio              : "A college student majoring in Computer Science and Technology."
