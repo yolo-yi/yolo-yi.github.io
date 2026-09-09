@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "LiuQianyi"
   pronouns         : # example: "she/her"  
-  bio              : "A college student majoring in Computre Science and Technology."
+  bio              : "A college student majoring in Computer Science and Technology."
   location         : "Fuzhou"
   employer         : "Fuzhou University"
   uri              : # URL
@@ -39,7 +39,7 @@ author:
   impactstory      : # URL
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : " URL
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -49,7 +49,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/yolo-yi"
+  github           : "yolo-yi"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
